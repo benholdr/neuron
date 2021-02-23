@@ -2,6 +2,7 @@ class{
   #inputWeights;
   #output = true;
   #outputDecay;
+  #decayCounter = 0;
   
   //expects a function of weights
   constructor(mutate){
